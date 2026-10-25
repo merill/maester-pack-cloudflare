@@ -1,0 +1,20 @@
+{
+  "Summary": "Configuration checks for Cloudflare",
+  "Prerequisites": [
+    {
+      "Text": "Install Cloudflare CLI",
+      "Command": "npm install --global cf@latest"
+    }
+  ],
+  "Connect": {
+    "Steps": [
+      {
+        "Command": "cf auth login"
+      }
+    ]
+  },
+  "AppOnly": {
+    "Supported": false
+  },
+  "$schema": "https://maester.dev/schemas/maester-pack-guide-1.0.json"
+}

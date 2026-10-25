@@ -1,0 +1,24 @@
+{
+  "$schema": "https://maester.dev/schemas/maester-pack-1.0.json",
+  "Id": "merill.cloudflare",
+  "Guid": "d78e63c5-982a-4023-b326-93b608f267e1",
+  "Name": "Cloudflare",
+  "Description": "Configuration checks for Cloudflare",
+  "Version": "0.1.0",
+  "Publisher": "merill",
+  "License": "MIT",
+  "Homepage": "https://github.com/merill/maester-pack-cloudflare",
+  "Support": "https://github.com/merill/maester-pack-cloudflare/issues",
+  "RequiresMaester": ">=3.0",
+  "Code": "MERCF",
+  "Suites": [
+    "tests"
+  ],
+  "Uses": {
+    "Services": [],
+    "GraphScopes": [],
+    "Network": []
+  },
+  "Banner": "assets/banner.jpg",
+  "Guide": "maester-pack.guide.json"
+}
